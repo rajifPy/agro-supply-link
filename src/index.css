@@ -17,17 +17,29 @@ All colors MUST be HSL.
     --popover: 0 0% 100%;
     --popover-foreground: 222.2 84% 4.9%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    /* Agricultural Green Theme */
+    --primary: 102 45% 25%; /* #2D5A27 */
+    --primary-foreground: 0 0% 98%;
+    --primary-light: 102 45% 35%;
+    --primary-dark: 102 45% 20%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    /* Agricultural Orange Accent */
+    --accent: 32 87% 63%; /* #F2994A */
+    --accent-foreground: 0 0% 98%;
+    --accent-light: 32 87% 73%;
+    --accent-dark: 32 87% 53%;
 
-    --muted: 210 40% 96.1%;
+    --secondary: 120 20% 96%;
+    --secondary-foreground: 102 45% 25%;
+
+    --muted: 120 15% 95%;
     --muted-foreground: 215.4 16.3% 46.9%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    /* Success & Warning Colors for Agricultural Context */
+    --success: 142 76% 36%;
+    --success-foreground: 0 0% 98%;
+    --warning: 38 92% 50%;
+    --warning-foreground: 0 0% 98%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
